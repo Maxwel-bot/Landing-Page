@@ -1,0 +1,219 @@
+body {
+    background-color: white;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 3% 5%;
+}
+
+.nav button {
+    border-radius: 30px;
+    width: 150%;
+    height: 2.7rem;
+    border-color: white;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.navbar img {
+    width: 50%;
+}
+
+.head {
+    background-image: url(Images/bg-hero-desktop.svg);
+    background-color: hsl(193, 100%, 96%);
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+}
+
+.illus {
+    width: 50%;
+}
+
+.hero img {
+    width: 45%;
+    margin-right: 60px;
+}
+
+.huddle {
+    margin-left: 60px;
+}
+
+.huddle h2 {
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.huddle p {
+    font-size: 18px;
+}
+
+.getstart {
+    border-radius: 30px;
+    width: 45%;
+    height: 2.7rem;
+    background-color: hsl(322, 100%, 66%);
+    cursor: pointer;
+    border-color: transparent;
+    color: white;
+    font-size: 15px;
+}
+
+.grow {
+    width: 30%;
+    margin-right: 90px;
+}
+
+.content {
+    display: flex;
+    border: 2px solid white;
+    background-color: rgb(253, 250, 250);
+    border-radius: 25px;
+    justify-content: space-between;
+    padding-left: 50px;
+    width: 70%;
+    height: 20rem;
+    align-items: center;
+    margin: auto;
+    margin-top: 90px;
+}
+
+.content p {
+    margin-bottom: 90px;
+    font-size: 18px;
+}
+
+.content .h2 {
+    padding-left: 10px;
+    margin-top: 50px;
+}
+
+.content .h2 h2 {
+    font-weight: 700;
+}
+
+.content1 {
+    display: flex;
+    border: 4px solid white;
+    background-color: rgb(253, 250, 250);
+    border-radius: 25px;
+    box-shadow: 10px;
+    justify-content: space-between;
+    padding-left: 50px;
+    width: 70%;
+    height: 20rem;
+    align-items: center;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.content1 p {
+    margin-bottom: 90px;
+    font-size: 18px;
+}
+
+.content1 .h2 {
+    padding-right: 15px;
+    margin-top: 50px;
+}
+
+.content1 .h2 h2 {
+    font-weight: 700;
+}
+
+.build {
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 50%;
+    height: 12rem;
+    text-align: center;
+    margin: 0 auto -80px auto;
+    margin-top: 50px;
+    background-color: rgb(253, 250, 250);
+    border-color: aliceblue;
+    position: relative;
+}
+
+.build h2 {
+    margin-top: 40px;
+}
+
+.build button {
+    border-radius: 30px;
+    width: 40%;
+    height: 2.8rem;
+    background-color: hsl(322, 100%, 66%);
+    cursor: pointer;
+    border-color: transparent;
+    color: white;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.logo {
+    width: 10%;
+    margin-left: 100px;
+    background-color: white;
+    margin-top: 170px;
+    margin-bottom: 40px;
+}
+
+footer {
+    margin-top: 60px;
+}
+
+.footer1 {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+    align-items: flex-start;
+}
+
+.foor {
+    background-color: hsl(192, 100%, 9%);
+    color: white;
+    width: 100%;
+    height: 28rem;
+}
+
+.row3:hover,
+.row2:hover {
+    cursor: pointer;
+}
+
+.row3 a,
+.row2 a {
+    color: white;
+}
+
+.row4 i {
+    padding: 5px;
+    cursor: pointer;
+}
+
+.row4 i:hover {
+    color: hsl(322, 100%, 66%);
+}
+
+.row1 i {
+    padding: 9px;
+}
+
+.span {
+    margin-top: 100px;
+}
+
+.email {
+    margin-top: 30px;
+}
